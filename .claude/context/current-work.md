@@ -1,10 +1,10 @@
----
-generated-from-commit: PENDING-FIRST-COMMIT
+﻿---
+generated-from-commit: dc872289dadc6935754f704a70a382411d072fc4
 generated-from-branch: main
 generated-date: 2026-06-16
 covers-paths:
   - .claude/**
-last-verified-commit: PENDING-FIRST-COMMIT
+last-verified-commit: dc872289dadc6935754f704a70a382411d072fc4
 stato: in pianificazione
 ---
 
@@ -33,7 +33,7 @@ Definition of done:
 - [ ] Schede context/ popolate con il contenuto estratto dal .docx principale
 - [ ] _notes/upscaling-topaz-AI/upscaling-topaz-AI.md collegata alla scheda STACK.md
 - [ ] Workflow cliente definito e documentato in deployment.md
-- [ ] Primo commit effettuato e PENDING-FIRST-COMMIT sostituiti via skill sync-context
+- [x] Primo commit effettuato (dc87228) e hash ancorato via sync-context
 
 Domande aperte:
 
@@ -43,4 +43,4 @@ Domande aperte:
 
 ## Riconciliazione
 
-Ultima verifica: 2026-06-16 al commit PENDING-FIRST-COMMIT.
+Ultima verifica: 2026-06-16 al commit dc872289dadc6935754f704a70a382411d072fc4.

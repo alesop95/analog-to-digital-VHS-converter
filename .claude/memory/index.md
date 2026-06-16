@@ -8,7 +8,7 @@
 
 ```
 Branch attivo:         main
-Commit di riferimento: PENDING-FIRST-COMMIT
+Commit di riferimento: dc872289dadc6935754f704a70a382411d072fc4
 Data snapshot:         2026-06-16
 ```
 
@@ -16,16 +16,15 @@ Data snapshot:         2026-06-16
 
 | Scheda | last-verified | Stato |
 |---|---|---|
-| STACK.md | PENDING-FIRST-COMMIT | init |
-| design-and-security.md | PENDING-FIRST-COMMIT | init |
-| deployment.md | PENDING-FIRST-COMMIT | init |
-| dev-testing.md | PENDING-FIRST-COMMIT | init |
-| current-work.md | PENDING-FIRST-COMMIT | init |
-| roadmap.md | PENDING-FIRST-COMMIT | init |
+| STACK.md | dc872289dadc6935754f704a70a382411d072fc4 | aggiornata |
+| design-and-security.md | dc872289dadc6935754f704a70a382411d072fc4 | aggiornata |
+| deployment.md | dc872289dadc6935754f704a70a382411d072fc4 | aggiornata |
+| dev-testing.md | dc872289dadc6935754f704a70a382411d072fc4 | aggiornata |
+| current-work.md | dc872289dadc6935754f704a70a382411d072fc4 | aggiornata |
+| roadmap.md | dc872289dadc6935754f704a70a382411d072fc4 | aggiornata |
 
 ## Punto di ripresa
 
-Inizializzazione completata (2026-06-16). Prossimo passo: eseguire il primo commit manuale,
-poi invocare la skill `sync-context` per sostituire i `PENDING-FIRST-COMMIT` con l'hash reale
-di HEAD. Successivamente: popolare le schede context/ estraendo il contenuto dal .docx
-principale.
+Schede context/ popolate con il contenuto del .docx principale (2026-06-16). Prossimo passo:
+secondo commit con le schede popolate, poi avviare la ricattura con impostazioni MJPEG/AVI
+per produrre il primo master vero. Definire il workflow cliente (prezzi, formati, consegna).
