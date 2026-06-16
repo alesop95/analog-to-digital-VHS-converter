@@ -15,7 +15,19 @@ last-verified-commit: dc872289dadc6935754f704a70a382411d072fc4
 
 ## Verifica dell'installazione hardware e driver (one-time)
 
-Dopo installazione del driver BDA051321.2 e riavvio Windows, collegare lo StarTech e verificare
+Lo StarTech SVID2USB232 su Windows 10/11 richiede il driver BDA, non il CD incluso nella
+confezione. Il CD contiene driver legacy che non dichiarano compatibilità con VID_EB1A&PID_8286
+e il relativo Setup.exe fallisce silenziosamente. Il driver corretto si scarica da
+startech.com/SVID2USB232: installer Setup_5.2021.080.3.exe, pacchetto BDA051321.2
+v5.2021.0513.2, firmato digitalmente, installabile normalmente come amministratore.
+
+Nella stessa cartella del download è presente anche un "Twain Driver": questo driver non è
+firmato digitalmente e richiede di disabilitare il Driver Signature Enforcement a ogni riavvio
+di Windows (da Opzioni di avvio avanzate, tasto 7 o F7). Non è la via adottata in questo
+progetto e non va usato: il BDA driver copre la stessa funzione senza richiedere modifiche al
+boot. I file del Twain Driver sono conservati in _notes/manuali-e-specifiche/ come riferimento.
+
+Dopo installazione del BDA driver e riavvio Windows, collegare lo StarTech e verificare
 in Gestione dispositivi sotto "Controller audio, video e giochi" la presenza di due voci senza
 triangolo giallo: "USB 2828x Audio Device" e "USB 2828x Device". L'assenza di triangoli gialli
 e l'assenza di voci sotto "Altri dispositivi" confermano il corretto riconoscimento di entrambe
