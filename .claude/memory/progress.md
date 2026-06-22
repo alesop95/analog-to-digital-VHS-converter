@@ -1,5 +1,18 @@
 ﻿# Work-log
 
+## 2026-06-16 — README pubblico, distinzione driver Twain, pulizia _notes/
+
+Commit: dc872289dadc6935754f704a70a382411d072fc4 (secondo commit in attesa dell'utente).
+File toccati: README.md (creato), .claude/context/dev-testing.md (nota Twain Driver aggiunta),
+_notes/old/ (settings/ spostata da _notes/, mmsp2_lab6/ eliminata).
+Modifiche al template J:\ (fuori repo): PROJECT-SYSTEM.md, init-project-system/SKILL.md,
+templates/README.md, templates/README-project.md (nuovo).
+Motivo: chiusura sessione. README pubblico GitHub creato con catena hardware, fisica del segnale,
+standard master, pipeline ASCII, troubleshooting, stato checklist. Sezione driver in dev-testing.md
+espansa: BDA051321.2 scelto (firmato, installabile normalmente), Twain driver scartato (non firmato,
+richiede disable DSE a ogni boot). _notes/ ripulita: materiale accademico MATLAB eliminato,
+screenshot OBS di gennaio 2026 archiviati in old/. Template J:\ allineato con gate README.
+
 ## 2026-06-16 — Ancoraggio hash e popolamento schede context/
 
 Commit: dc872289dadc6935754f704a70a382411d072fc4

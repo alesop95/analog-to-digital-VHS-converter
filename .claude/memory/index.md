@@ -25,6 +25,9 @@ Data snapshot:         2026-06-16
 
 ## Punto di ripresa
 
-Schede context/ popolate con il contenuto del .docx principale (2026-06-16). Prossimo passo:
-secondo commit con le schede popolate, poi avviare la ricattura con impostazioni MJPEG/AVI
-per produrre il primo master vero. Definire il workflow cliente (prezzi, formati, consegna).
+Sessione 2026-06-16 chiusa. Schede popolate, README.md creato, dev-testing.md espansa con
+distinzione BDA/Twain, _notes/ ripulita. Secondo commit in attesa esecuzione manuale:
+`git add README.md .claude/context/dev-testing.md && git commit -m "docs: README pubblico e nota driver Twain"`.
+
+Prossimo passo concreto: ricattura con impostazioni MJPEG/AVI per produrre il primo master
+vero. Poi: definire workflow cliente (prezzi, formati, consegna). Vedi roadmap.md.

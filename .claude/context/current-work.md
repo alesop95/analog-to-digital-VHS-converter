@@ -30,16 +30,19 @@ File da creare:
 
 Definition of done:
 
-- [ ] Schede context/ popolate con il contenuto estratto dal .docx principale
+- [x] Schede context/ popolate con il contenuto estratto dal .docx principale
+- [x] README.md pubblico creato e pronto per il secondo commit
+- [x] dev-testing.md espansa con nota driver BDA vs Twain
+- [x] _notes/ ripulita (mmsp2_lab6 eliminato, settings archiviati in old/)
 - [ ] _notes/upscaling-topaz-AI/upscaling-topaz-AI.md collegata alla scheda STACK.md
 - [ ] Workflow cliente definito e documentato in deployment.md
 - [x] Primo commit effettuato (dc87228) e hash ancorato via sync-context
+- [ ] Secondo commit (README.md + dev-testing.md) — in attesa manuale
 
 Domande aperte:
 
-- Quali sezioni del .docx hanno priorità di trascrizione in .md?
 - Il workflow cliente (prezzi, formati, consegna) è già definito o ancora in elaborazione?
-- Si vuole creare un documento pubblico separato (README.md) per la repo GitHub?
+- _notes/upscaling-topaz-AI/ va collegata esplicitamente a STACK.md o è sufficiente il riferimento implicito?
 
 ## Riconciliazione
 
