@@ -10,13 +10,11 @@ stato: in pianificazione
 
 # Lavoro in corso
 
-> La fonte di verità su cosa è fatto resta memory/index.md e il work-log, non le spunte di
-> questo file. Ogni attività si descrive con lo schema fisso sotto.
+> La fonte di verità su cosa è fatto resta memory/index.md e il work-log, non le spunte di questo file. Ogni attività si descrive con lo schema fisso sotto.
 
 ## Attività: Strutturazione della documentazione in file .md tracciati
 
-Cosa fa: convertire il contenuto del .docx principale e dei file _notes/ in documenti .md
-versionati e collegati all'anatomia .claude/context/.
+Cosa fa: convertire il contenuto del .docx principale e dei file _notes/ in documenti .md versionati e collegati all'anatomia .claude/context/.
 
 File da creare:
 
